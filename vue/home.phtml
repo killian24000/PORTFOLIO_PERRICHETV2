@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil / PERRICHET</title>
+    <!-- CONNEXION MASTER CSS -->
+    <link rel="stylesheet" href="./src/css/master.css">
+  </head>           
+  <body>
+      <main class="presentation p-16">
+        <h2 class="NeonEffect">À propos de moi ?</h2>
+        <div class="presentationContent">
+          <h4>
+            <p>Je m’appelle Killian, j’ai 23 ans et je suis actuellement en recherche d’un contrat d’alternance afin
+              d’intégrer une formation professionnel en développement web et web mobile, mon parcours en développement, n’en
+              est pas à son coup d’essai.</p>
+            <p>En effet, j’ai déjà pu réaliser une 1re année en BTS SIO spécialité SLAM au Lycée Ozenne à Toulouse, ainsi
+              qu’une première formation professionnelle RNCP (Bac + 2), en développement web et web mobile chez Webforce, au
+              cours de ses nombreuses formation, j’ai pu expérimenter divers langages et technologies que vous pourrez
+              consulter dans l’onglet « Compétences » de ce portfolio.</p>
+            <p>Ce portfolio a été conçu afin d'illustrer toutes les notions que j'ai abordées en Développement Web,
+              depuis mon entrée en BTS SIO jusqu'à aujourd'hui. Pour les connaisseurs, je vous invite à jouer le jeu et à essayer 
+              de deviner quelles langages et outils j'ai utilisé pour concevoir ce portfolio et à me le faire savoir que ce soit
+              via mes réseaux ou via le formulaire d'envoi de mail ci-dessous.</p>
+            <p>Ainsi bienvenue sur mon portfolio et passé une agréable visite.</p>
+            <p>Killian PERRICHET.</p>
+            
+          </h4>
+        </div>
+      </main>
+      <nav>
+        <div class="contact">
+          <div class="profilePicture Neon border-radius-10 m-32"></div>
+          <form class="formulaireContact Neon border-radius-10 m-16" method="POST">
+            <div class="m-b-16">
+              <input type="text" name="Nom" placeholder="Nom" id="Nom" required>
+            </div>
+            <div class="m-b-16">
+              <input type="text" name="prenom" placeholder="Prénom" id="Prenom" required>
+            </div>
+            <div class="m-b-16">
+              <input type="email" name="email" placeholder="Adresse mail" id="email" required>
+            </div>
+            <div class="m-b-16">
+              <textarea class="p-8" name="message" placeholder="Message" rows="7" cols="33" id="message" required></textarea>
+            </div>
+            <div class="m-b-16">
+              <button type="submit" name="submit">Envoyer</button>
+            </div>
+            <p style="color : red;" id="error">
+          </form>
+        </div>
+      </nav>
+    </body>
+</html>
