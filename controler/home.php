@@ -6,7 +6,7 @@ if( $_SERVER["SCRIPT_FILENAME"] == __FILE__){
 if(isset($_POST['mailform'])){
 
   $email = $_POST['email'];
-  $name = $_POST['name'];
+  $name = $_POST['Nom'];
   $prenom = $_POST['prenom'];
   $message = $_POST['message'];
 
@@ -27,7 +27,7 @@ if(isset($_POST['mailform'])){
 
   //echo($message);
   
-  mail("killian.perrichet@androcode.fr", "Salut tout le monde !", $message, $header);
+  mail("killian.perrichet@androcode.fr", "Demande de contact", $message, $header);
 }
 
 $titre = "Liste des formations";
