@@ -30,7 +30,7 @@ if(isset($_POST['mailform'])){
   //echo($message);
   
   mail("killian.perrichet@androcode.fr", "Demande de contact", $message, $header);
-  echo "<script type='text/javascript>window.alert('" . $popup . "');</script>";
+  echo "<script type='text/javascript>alert('" . $popup . "');</script>";
 }
 
 $titre = "Liste des formations";
