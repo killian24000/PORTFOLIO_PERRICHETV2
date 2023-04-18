@@ -10,6 +10,8 @@ if(isset($_POST['mailform'])){
   $prenom = $_POST['prenom'];
   $message = $_POST['message'];
 
+  $popup = 'Message Envoyé';
+
   $header="MIME-Version: 1.0\r\n";
   $header.='From:"'.$name. '' .$prenom.'"<'.$email.'>'."\n";
   $header.='Content-Type:text/html; charset="uft-8"'."\n";
@@ -28,6 +30,7 @@ if(isset($_POST['mailform'])){
   //echo($message);
   
   mail("killian.perrichet@androcode.fr", "Demande de contact", $message, $header);
+  echo "<script type='text/javascript>window.alert('" . $popup . "');</script>";
 }
 
 $titre = "Liste des formations";
