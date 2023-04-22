@@ -28,8 +28,13 @@ if(isset($_POST['mailform'])){
   ';
 
   //echo($message);
+
+  try {
+    mail("killian.perrichet@androcode.fr", "Demande de contact", $message, $header);
+  } catch (Execute $e) {
+    echo('<script> alert("test")</script>');
+  }
   
-  mail("killian.perrichet@androcode.fr", "Demande de contact", $message, $header);
 }
 
 $titre = "Liste des formations";
