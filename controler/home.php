@@ -29,10 +29,7 @@ if(isset($_POST['mailform'])){
 
   //echo($message);
 
-    mail("killian.perrichet@androcode.fr", "Demande de contact", $message, $header);
-
-   
-    
+    mail("killian.perrichet@androcode.fr", "Demande de contact", $message, $header);    
 }
 
 $titre = "Liste des formations";
