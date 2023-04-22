@@ -29,11 +29,9 @@ if(isset($_POST['mailform'])){
 
   //echo($message);
 
-  try {
     mail("killian.perrichet@androcode.fr", "Demande de contact", $message, $header);
-  } catch (Execption $e) {
     echo('<script> alert("test")</script>');
-  }
+
   
 }
 
