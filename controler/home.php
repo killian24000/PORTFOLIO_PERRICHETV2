@@ -30,12 +30,16 @@ if(isset($_POST['mailform'])){
   //echo($message);
 
     mail("killian.perrichet@androcode.fr", "Demande de contact", $message, $header);
-    echo('<script> alert("test")</script>');
 
-  
+   
+    
 }
 
 $titre = "Liste des formations";
 include "$racine/vue/header.php";
 include "$racine/vue/home.phtml";
-include "$racine/vue/footer.php";
+include "$racine/vue/footer.php"; 
+
+if(isset($_POST['mailform'])){
+      echo('<script> alert("Votre message a bien été envoyé")</script>');
+    }
