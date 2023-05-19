@@ -7,7 +7,7 @@
     <link rel="icon" href="./src/images/K.png">
     <title>PORTFOLIO / PERRICHET</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
-    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css?<?php echo filetime('./src/css/swiper-bundle.min.css');?>">
+    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css?<?php echo filemtime('./src/css/swiper-bundle.min.css');?>">
     <link rel="stylesheet" href="./src/css/master.css?<?php echo filemtime('./src/css/master.css');?>">
     <link rel="stylesheet" href="./src/css/timeline.css?<?php echo filemtime('./src/css/timeline.css');?>">
     <link rel="stylesheet" href="./src/css/projet.css?<?php echo filemtime('./src/css/projet.css');?>" class="src">
