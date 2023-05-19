@@ -5,10 +5,7 @@
 }
 /* GENERAL */
 body {
-    background: linear-gradient(-45deg, #8a2d2a,#612020, #441010, #460808);
-	background-size: 2000% 2000%;
-	animation: gradient 200s ease infinite;
-	height: 100vh;
+    background: rgb(56, 2, 2);
     font-family: 'Konnect-Medium';
     margin: 0px;
 }
@@ -18,10 +15,10 @@ a.NeonButton:hover{
     text-shadow:
       0 0 6px rgba(255, 255, 255, 0.92),
       0 0 30px rgba(221, 226, 226, 0.34),
-      0 0 12px rgba(226, 17, 17, 0.52),
-      0 0 21px rgba(201, 41, 54, 0.92),
-      0 0 34px rgba(145, 37, 37, 0.78),
-      0 0 54px rgba(134, 41, 41, 0.92);
+      0 0 12px rgba(95, 11, 57, 0.52),
+      0 0 21px rgba(122, 5, 102, 0.548),
+      0 0 34px rgba(114, 4, 114, 0.521),
+      0 0 54px rgba(68, 5, 60, 0.548);
 
 }
 .Neon{
@@ -29,10 +26,10 @@ a.NeonButton:hover{
     box-shadow:
       0 0 8px #fff,
       inset 0 0 8px #fff,
-      0 0 16px rgba(201, 41, 54, 0.92),
-      inset 0 0 16px rgba(201, 41, 54, 0.92),
-      0 0 32px rgba(201, 41, 54, 0.92),
-      inset 0 0 32px rgba(201, 41, 54, 0.92); 
+      0 0 16px rgba(95, 11, 57, 0.52),
+      inset 0 0 16px rgba(122, 5, 102, 0.26),
+      0 0 32px rgba(114, 4, 114, 0.432),
+      inset 0 0 32px rgba(68, 5, 60, 0.39); 
 }
 
 header{
@@ -43,19 +40,17 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    flex-grow: 2;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(39, 5, 5);
+    text-decoration: none
 }
 /* CSS NAV */
 .container-nav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction:row;
+    justify-content:center;
     color: rgb(190, 185, 185);
-    text-decoration: none;
-    background-color :rgb(39, 5, 5);
 }
 a {
     text-decoration: none;
@@ -109,20 +104,13 @@ a {
 }
 .formulaireContact{
     text-align: center;
-    background-color: rgb(75, 38, 38);
+    background-color: rgb(39, 5, 5);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /*border: 0.5px solid rgb(90, 89, 89);*/
-}
-.request_message{
-    width: 400px;
-    text-transform: capitalize;
-    color: green;
-    font-size: 13px;
-    padding: 14px;
 }
 .formulaireContact div{
     width: 80%;
@@ -162,6 +150,7 @@ textarea {
     border-radius: 10px;
     border: 0px;
 }
+
 /* CSS FOOTER */
 .footer {
     display: flex;
@@ -171,13 +160,10 @@ textarea {
     align-items: center;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(49, 11, 11);
+    background-color: rgb(39, 5, 5);
 }
 .footdiv{
     border-right: 0.2px white solid;
-}
-.footdivLeft {
-    border-left: 0.2px white solid;
 }
 footer div a img{
     filter: invert(1);
@@ -250,7 +236,34 @@ h4{
         max-width: 400px;
     }
 }
-/* MEDIA SCREEN */
+/* MEDIA SCREEN HEADER */
+@media only screen and (min-width:200px) {
+    h1{
+        font-size:110%;
+    }
+    
+    a{
+        font-size: small;
+    }
+}
+@media only screen and (min-width: 601px) {
+    h1{
+        font-size: 120%;
+    }
+
+    a{
+        font-size: medium;
+    }
+}
+@media only screen and (min-width: 710px) {
+    h1{
+        font-size: 140%;
+    }
+    a{
+        font-size: large;
+    }
+}
+/* MEDIA SCREEN FOOTER*/
 @media screen and (max-width: 960px){
 
     .footer{
@@ -272,3 +285,4 @@ h4{
         border-left: 0px;
     }
 }
+

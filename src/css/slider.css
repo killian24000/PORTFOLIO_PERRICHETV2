@@ -37,7 +37,7 @@
     top:0;
     height: 100%;
     width: 100%;
-    background-color: rgb(75, 38, 38);
+    background-color: rgb(39, 5, 5);
 }
 .overlay::before,
 .overlay::after {
@@ -47,7 +47,7 @@
     bottom: -40px;
     height: 40px;
     width: 40px;
-    background-color:rgb(75, 38, 38);
+    background-color:rgb(39, 5, 5);
 }
 .overlay::after {
     border-radius: 0 25px 0 0;

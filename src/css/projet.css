@@ -4,9 +4,9 @@
   }
   
   
-  body {
+  /* body {
     background-color: #000;
-  }
+  } */
   .ag-courses_box {
     display: -webkit-box;
     display: flex;
@@ -31,7 +31,7 @@
   .ag-courses-item_link {
     display: block;
     padding: 30px 20px;
-    background-color: rgb(75, 38, 38);
+    background-color: rgb(39, 5, 5);
   
     overflow: hidden;
   

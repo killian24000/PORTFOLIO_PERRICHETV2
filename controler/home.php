@@ -3,6 +3,7 @@ if( $_SERVER["SCRIPT_FILENAME"] == __FILE__){
   $racine="..";
 }
 
+
 if(isset($_POST['mailform'])){
 
   $email = $_POST['email'];
