@@ -8,7 +8,7 @@
           <a class="" href="https://www.linkedin.com/in/killian-perrichet-693206227/">
             <img src="./src/images/linkedin(1).svg" alt="Logo_Linkedin" width="30px">
           </a>
-          <a href="./src/pdf/PERRICHET Killian-2023.pdf" target="_blank">
+          <a href="./src/pdf/PERRICHET_Killian_CV2023.pdf" target="_blank">
             <img src="./src/images/cv-en-ligne.png" alt="Logo_CV" width="30px">
           </a>
         </div>
